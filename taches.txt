@@ -1,0 +1,2 @@
+Github | True
+Be billionaire | False
