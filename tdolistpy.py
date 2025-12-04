@@ -1,13 +1,13 @@
 active = True
 import os
 
-# 📂 Chemin complet du dossier où tu veux enregistrer le fichier
+# Chemin complet du dossier où tu veux enregistrer le fichier
 chemin_dossier = r"D:\ECOLE\Solo\To do list"
 
-# 📄 Nom complet du fichier
+# Nom complet du fichier
 chemin_fichier = os.path.join(chemin_dossier, "taches.txt")
 
-# ✅ Crée le dossier s’il n’existe pas (évite les erreurs)
+# Crée le dossier s’il n’existe pas (évite les erreurs)
 os.makedirs(chemin_dossier, exist_ok=True)
 
 def choix_1_add():
@@ -153,4 +153,5 @@ while True:
         choix_6_exit()
 
     else:
+
         active = False
